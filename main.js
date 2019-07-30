@@ -19,6 +19,9 @@ const child_process = require( "child_process" );
 
 const TwitchIRCWrappper = require( "./twitch_irc_wrapper.js" );
 
+// FailFish
+// https://github.com/chjj/blessed
+
 ( async ()=> {
 
 	const connection = new TwitchIRCWrappper({
